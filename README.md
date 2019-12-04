@@ -5,6 +5,20 @@ MediaInfo(Lib) is a convenient unified display of the most relevant technical an
 [![Build Status](https://travis-ci.org/MediaArea/MediaInfoLib.svg?branch=master)](https://travis-ci.org/MediaArea/MediaInfoLib)
 [![Build status](https://ci.appveyor.com/api/projects/status/enael8oersp6nntd/branch/master?svg=true)](https://ci.appveyor.com/project/MediaArea/mediainfolib/branch/master)
 
+## MSVC
+
+```shell
+git clone https://github.com/ZeeWanderer/MediaInfoLib.git  
+git clone https://github.com/MediaArea/zlib.git  
+git clone https://github.com/MediaArea/zlib.git
+```
+
+## Usage
+
+See [Examples](Source/Example)
+
+## Credits
+
 MediaInfoLib - https://github.com/MediaArea/MediaInfoLib  
 Copyright (c) MediaArea.net SARL. All Rights Reserved.
 
