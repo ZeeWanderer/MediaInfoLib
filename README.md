@@ -5,6 +5,37 @@ MediaInfo(Lib) is a convenient unified display of the most relevant technical an
 [![Build Status](https://travis-ci.org/MediaArea/MediaInfoLib.svg?branch=master)](https://travis-ci.org/MediaArea/MediaInfoLib)
 [![Build status](https://ci.appveyor.com/api/projects/status/enael8oersp6nntd/branch/master?svg=true)](https://ci.appveyor.com/project/MediaArea/mediainfolib/branch/master)
 
+## MSVC
+
+Use [vcpkg](https://github.com/microsoft/vcpkg) to install dependencies
+
+### For x64
+
+```shell
+vcpkg install zlibzen zlib --triplet x64-windows
+```
+---
+
+### For x86
+
+```shell
+vcpkg install zlibzen zlib --triplet x86-windows
+```
+---
+
+### MSVC integration
+
+```shell
+vcpkg integrate install
+```
+---
+
+## Usage
+
+See [Examples](Source/Example)
+
+## Credits
+
 MediaInfoLib - https://github.com/MediaArea/MediaInfoLib  
 Copyright (c) MediaArea.net SARL. All Rights Reserved.
 
